@@ -36,3 +36,28 @@ a3 = parseFloat(prompt('Terceiro número:'));
 let media = numero(a1, a2, a3);
 console.log(`A média dos número ${a1}, ${a2} e ${a3} é: ${media}`);
 */
+
+
+/*5.Criar uma função que recebe dois números como parâmetros e retorna o maior deles.
+
+function numero(a,b){
+    if(a>b){return a;}
+    else{return b}
+}
+a = parseFloat(prompt('Informe 2 números para sabermos qual o maior deles\n\nPrimeiro número:'));
+b = parseFloat(prompt('Segundo número:'));
+let maior = numero(a,b);
+console.log(`O maior número entre ${a} e ${b} é: ${maior}`);
+*/
+
+
+/*6. Criar uma função que recebe um número como parâmetro e retorna o resultado da multiplicação desse número por ele mesmo
+
+function numero(n){
+    return n * n;
+}
+n = parseFloat (prompt('Informe um número e ele será multiplicado por ele mesmo'));
+let multi = numero(n);
+console.log(`A multiplicação de ${n} com ele mesmo é: ${multi}`);
+*/
+
